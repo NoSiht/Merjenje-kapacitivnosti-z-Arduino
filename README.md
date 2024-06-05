@@ -15,5 +15,5 @@ KOSOVNICA:
 - upori
 - digitalni merilnik kapacitivnosti
 
-|React|Angular|Node|
-|---|---|---|
+|Uporabljen predmet|Št. kosov|
+|---|---|
