@@ -7,8 +7,14 @@ Naloga merjenja kapacitivnosti z Arduino lahko vključuje tudi uporabo posebnih 
 
 
 KOSOVNICA:
-- Arduino UNO R3
-- upori
+- Arduino UNO R3 x1
 - kondenzatorji
 - protoboard
 - žičke
+- I2C LCD zaslon
+- upori
+- digitalni merilnik kapacitivnosti
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
