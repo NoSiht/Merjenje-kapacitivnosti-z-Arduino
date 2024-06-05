@@ -14,7 +14,6 @@ KOSOVNICA:
 - I2C LCD zaslon
 - upori
 - digitalni merilnik kapacitivnosti
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+
+|React|Angular|Node|
+|---|---|---|
