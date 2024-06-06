@@ -21,3 +21,4 @@ KOSOVNICA:
 |Protoboard|   x1   |
 |I2C LCD zaslon|   x1   |
 |Digitalni merilnik kapacitivnosti|   x1   |
+|Žičke|   x7-x10   |
