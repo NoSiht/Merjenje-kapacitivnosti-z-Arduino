@@ -6,19 +6,13 @@ Prvi korak je priprava vezja, ki vključuje kondenzator, upor in Arduino mikrokr
 Naloga merjenja kapacitivnosti z Arduino lahko vključuje tudi uporabo posebnih knjižnic in programov za izračun vrednosti kapacitivnosti. Ta naloga je pomembna pri razvoju elektronskih naprav, saj omogoča natančno določanje vrednosti kapacitivnosti kondenzatorjev, ki se uporabljajo v električnih vezjih.
 
 
-KOSOVNICA:
-- Arduino UNO R3 x1
-- kondenzatorji
-- protoboard
-- žičke
-- I2C LCD zaslon
-- upori
-- digitalni merilnik kapacitivnosti
+# KOSOVNICA:
 
 |Uporabljen predmet|Št. kosov|
 |---|---|
-|Arduino UNO R3|   x1   |
-|Protoboard|   x1   |
-|I2C LCD zaslon|   x1   |
-|Digitalni merilnik kapacitivnosti|   x1   |
-|Žičke|   x7-x10   |
+|Arduino UNO R3|   1   |
+|Protoboard|   1   |
+|I2C LCD zaslon|   1   |
+|Digitalni merilnik kapacitivnosti|   1   |
+|Žičke|   6-10   |
+|Kondenzatorji| 
