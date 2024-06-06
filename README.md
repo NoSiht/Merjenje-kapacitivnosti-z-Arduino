@@ -17,3 +17,5 @@ KOSOVNICA:
 
 |Uporabljen predmet|Št. kosov|
 |---|---|
+|Arduino UNO R3|   x1   |
+|---|---|
