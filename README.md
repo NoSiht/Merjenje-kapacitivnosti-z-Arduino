@@ -15,4 +15,4 @@ Naloga merjenja kapacitivnosti z Arduino lahko vključuje tudi uporabo posebnih 
 |I2C LCD zaslon|   1   |
 |Digitalni merilnik kapacitivnosti|   1   |
 |Žičke|   6-10   |
-|Kondenzatorji| 
+|Kondenzatorji|   n št.   |  
