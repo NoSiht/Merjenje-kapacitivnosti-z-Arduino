@@ -18,4 +18,5 @@ KOSOVNICA:
 |Uporabljen predmet|Št. kosov|
 |---|---|
 |Arduino UNO R3|   x1   |
-|---|---|
+|Protoboard|   x1   |
+|I2C LCD zaslon|   x1   |
