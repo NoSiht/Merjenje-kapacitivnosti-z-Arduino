@@ -26,7 +26,7 @@ Naloga merjenja kapacitivnosti z Arduino lahko vključuje tudi uporabo posebnih 
 10 kΩ upor vzamemo za računanje neznanih kondenzatorjev. Lahko bi uporabili tudi drugačen upor, ampak bi morali tudi dodelati kodo, da lahko računa s tem uporom.
 220 Ω upor uporabimo za stabilizacijo vezja.
 
-# Načrt ohišja
+# Skica ohišja:
 ![image](https://github.com/NoSiht/Merjenje-kapacitivnosti-z-Arduino/assets/161247741/7ea2c81a-83ab-462a-9bec-480ca04d0f48)
 
 
