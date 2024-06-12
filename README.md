@@ -27,5 +27,6 @@ Naloga merjenja kapacitivnosti z Arduino lahko vključuje tudi uporabo posebnih 
 220 Ω upor uporabimo za stabilizacijo vezja.
 
 # Načrt ohišja
-![20240612_101301](https://github.com/NoSiht/Merjenje-kapacitivnosti-z-Arduino/assets/161247741/d423e221-4a8a-481a-bc3b-2cd0160f2d86)
+![image](https://github.com/NoSiht/Merjenje-kapacitivnosti-z-Arduino/assets/161247741/7ea2c81a-83ab-462a-9bec-480ca04d0f48)
+
 
