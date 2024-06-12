@@ -20,3 +20,6 @@ Naloga merjenja kapacitivnosti z Arduino lahko vključuje tudi uporabo posebnih 
 
 Vezalna shema:
 ![image](https://github.com/NoSiht/Merjenje-kapacitivnosti-z-Arduino/assets/161247741/e58da991-aab1-420e-b7c2-e1e0fd61614b)
+
+Komentar vezja:
+Izračune za upore 10 kΩ in 220 Ω
