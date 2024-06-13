@@ -57,8 +57,8 @@ Skladnost: Obe napravi kažeta skladne rezultate pri merjenju manjših kapacitet
 # Komentar na delovanje naprave:
 
 Komponente in povezave
-Arduino Uno: Uporablja se za merjenje kapacitivnosti.
-LCD zaslon (HD44780 + I2C modul): Uporablja se za prikaz rezultatov meritev.
+1. Arduino Uno: Uporablja se za merjenje kapacitivnosti.
+- LCD zaslon (HD44780 + I2C modul): Uporablja se za prikaz rezultatov meritev.
 Odporniki R1 (10k) in R2 (220 ohm): Vezani v vezje za pravilno delovanje.
 Kondenzator C1: Kondenzator, ki ga merimo.
 Delovanje vezja
