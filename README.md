@@ -80,5 +80,5 @@ Skladnost: Obe napravi kažeta skladne rezultate pri merjenju manjših kapacitet
 4. Prikaz rezultata:
   - Izračunano vrednost kapacitivnosti prikaže na LCD zaslonu.
 
-### Zaključek
+### Zaključek:
 To vezje omogoča merjenje kapacitivnosti z Arduinom preko polnjenja in praznjenja kondenzatorja v RC vezju in merjenja časa, potrebnega za dosego določene napetosti. Natančnost meritev je odvisna od natančnosti uporabljenih komponent in merilne tehnike. Prikazovanje rezultatov na LCD zaslonu omogoča enostavno spremljanje meritev v realnem času.
