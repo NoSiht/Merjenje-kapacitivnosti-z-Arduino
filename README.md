@@ -49,7 +49,7 @@ Naloga merjenja kapacitivnosti z Arduino lahko vključuje tudi uporabo posebnih 
 |5.| 1 uF | 1,03 uF |
 
 ### Komentar:
-Natančnost meritev: Arduino in merilni inštrument sta pri večini meritev dokaj natančna, še posebej pri manjših vrednostih kapacitet.
+Natančnost meritev: Arduino in merilni inštrument sta pri večini meritev dokaj natančna, še posebej pri manjših vrednostih.
 Odstopanja: Večja odstopanja so prisotna pri večjih kapacitetah (22 µF in več), kjer Arduino kaže nekoliko večje razlike kot merilni inštrument.
 Možne napake: Pri meritvi 47 µF so verjetno prisotne napake, saj izmerjene vrednosti ne ustrezajo realni vrednosti kondenzatorja.
 Skladnost: Obe napravi kažeta skladne rezultate pri merjenju manjših kapacitet (npr. 330 nF).
