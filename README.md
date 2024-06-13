@@ -64,16 +64,18 @@ Skladnost: Obe napravi kažeta skladne rezultate pri merjenju manjših kapacitet
 
 ### Delovanje vezja:
 1. Polnjenje in praznjenje kondenzatorja:
-- R1 (10k ohm) in C1 tvorita RC vezje, kjer se kondenzator polni in prazni preko upora.
-- Arduino meri čas, ki je potreben, da se kondenzator napolni do določene napetosti (npr. 63.2% polne napetosti), kar ustreza časovni konstanti RC.
+  - R1 (10k ohm) in C1 tvorita RC vezje, kjer se kondenzator polni in prazni preko upora.
+  - Arduino meri čas, ki je potreben, da se kondenzator napolni do določene napetosti (npr. 63.2% polne napetosti), kar ustreza časovni konstanti RC.
 2. Povezave z LCD zaslonom:
-- SDA in SCL pini Arduina so povezani z ustreznimi pini na I2C modulu LCD zaslona.
-- To omogoča, da Arduino pošilja rezultate meritev na zaslon preko I2C komunikacije.
+  - SDA in SCL pini Arduina so povezani z ustreznimi pini na I2C modulu LCD zaslona.
+  - To omogoča, da Arduino pošilja rezultate meritev na zaslon preko I2C komunikacije.
 
 ### Postopek merjenja:
 1. Inicializacija: Arduino inicializira LCD zaslon in pripravi vhodne/izhodne pine.
 2. Polnjenje kondenzatorja:
-- Arduino nastavi pin na HIGH, kar omogoča, da se kondenzator začne polniti preko upora R1.
-- Meri čas, potreben, da napetost na kondenzatorju doseže 63.2% napajalne napetosti (običajno 5V).
+  - Arduino nastavi pin na HIGH, kar omogoča, da se kondenzator začne polniti preko upora R1.
+  - Meri čas, potreben, da napetost na kondenzatorju doseže 63.2% napajalne napetosti (običajno 5V).
+3. Izračuno kapacitivnosti:
+  - Arduino porabi izmerjen čas in znano vrednost upora R1 za izračun kapacitivnosti: C = t/R.
 
 
