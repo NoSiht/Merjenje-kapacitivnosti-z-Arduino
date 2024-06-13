@@ -77,5 +77,6 @@ Skladnost: Obe napravi kažeta skladne rezultate pri merjenju manjših kapacitet
   - Meri čas, potreben, da napetost na kondenzatorju doseže 63.2% napajalne napetosti (običajno 5V).
 3. Izračuno kapacitivnosti:
   - Arduino porabi izmerjen čas in znano vrednost upora R1 za izračun kapacitivnosti: C = t/R.
-
+4. Prikaz rezultata:
+  - Izračunano vrednost kapacitivnosti prikaže na LCD zaslonu.
 
