@@ -53,3 +53,5 @@ Natančnost meritev: Arduino in merilni inštrument sta pri večini meritev doka
 Odstopanja: Večja odstopanja so prisotna pri večjih kapacitetah (22 µF in več), kjer Arduino kaže nekoliko večje razlike kot merilni inštrument.
 Možne napake: Pri meritvi 47 µF so verjetno prisotne napake, saj izmerjene vrednosti ne ustrezajo realni vrednosti kondenzatorja.
 Skladnost: Obe napravi kažeta skladne rezultate pri merjenju manjših kapacitet (npr. 330 nF).
+
+# Komentar na delovanje naprave:
