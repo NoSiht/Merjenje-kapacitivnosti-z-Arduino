@@ -55,3 +55,41 @@ Možne napake: Pri meritvi 47 µF so verjetno prisotne napake, saj izmerjene vre
 Skladnost: Obe napravi kažeta skladne rezultate pri merjenju manjših kapacitet (npr. 330 nF).
 
 # Komentar na delovanje naprave:
+
+Komponente in povezave
+Arduino Uno: Uporablja se za merjenje kapacitivnosti.
+LCD zaslon (HD44780 + I2C modul): Uporablja se za prikaz rezultatov meritev.
+Odporniki R1 (10k) in R2 (220 ohm): Vezani v vezje za pravilno delovanje.
+Kondenzator C1: Kondenzator, ki ga merimo.
+Delovanje vezja
+Polnjenje in praznjenje kondenzatorja:
+
+R1 (10k ohm) in C1 tvorita RC vezje, kjer se kondenzator polni in prazni preko upora.
+Arduino meri čas, ki je potreben, da se kondenzator napolni do določene napetosti (npr. 63.2% polne napetosti), kar ustreza časovni konstanti RC.
+Merjenje časa (časovna konstanta):
+
+Časovna konstanta (τ) za RC vezje je definirana kot τ = R * C.
+Arduino meri čas (t), potreben za dosego določene napetosti, in nato izračuna kapacitivnost (C) z uporabo znane vrednosti upora (R).
+Povezave z LCD zaslonom:
+
+SDA in SCL pini Arduina so povezani z ustreznimi pini na I2C modulu LCD zaslona.
+To omogoča, da Arduino pošilja rezultate meritev na zaslon preko I2C komunikacije.
+Postopek merjenja
+Inicializacija: Arduino inicializira LCD zaslon in pripravi vhodne/izhodne pine.
+Polnjenje kondenzatorja:
+Arduino nastavi pin na HIGH, kar omogoča, da se kondenzator začne polniti preko upora R1.
+Meri čas, potreben, da napetost na kondenzatorju doseže 63.2% napajalne napetosti (običajno 5V).
+Prikaz rezultata:
+Izračunano vrednost kapacitivnosti prikaže na LCD zaslonu.
+Možne napake in natančnost
+Natančnost upora R1: Če je vrednost upora R1 nenatančna, bodo tudi izračuni kapacitivnosti napačni.
+Natančnost merjenja časa: Natančnost merjenja časa z Arduinom vpliva na točnost končnega rezultata.
+Parazitne kapacitivnosti: Prisotnost parazitnih kapacitivnosti v vezju lahko vpliva na natančnost meritev.
+Zaključek
+To vezje omogoča merjenje kapacitivnosti z Arduinom preko polnjenja in praznjenja kondenzatorja v RC vezju in merjenja časa, potrebnega za dosego določene napetosti. Natančnost meritev je odvisna od natančnosti uporabljenih komponent in merilne tehnike. Prikazovanje rezultatov na LCD zaslonu omogoča enostavno spremljanje meritev v realnem času.
+
+
+
+
+
+
