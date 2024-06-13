@@ -38,3 +38,14 @@ Arduino:
 |3.| 22 uF | 27 uF |
 |4.| 47 uF | 45,2 nF |
 |5.| 1 uF | 1,03 uF |
+
+Merilni inštrument:
+|      | Odčitana vrednost | Izmerjena vrednost |
+|---|---|---|
+|1.| 330 nF | 359 nF |
+|2.| 47 nF | 46,1 nF |
+|3.| 22 uF | 24,5 uF |
+|4.| 47 uF | 43,3 nF |
+|5.| 1 uF | 1,03 uF |
+
+Komentar
