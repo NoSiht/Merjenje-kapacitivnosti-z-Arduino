@@ -29,4 +29,12 @@ Naloga merjenja kapacitivnosti z Arduino lahko vključuje tudi uporabo posebnih 
 # Skica ohišja:
 ![image](https://github.com/NoSiht/Merjenje-kapacitivnosti-z-Arduino/assets/161247741/7ea2c81a-83ab-462a-9bec-480ca04d0f48)
 
-
+# Komentar in tabela meritev:
+Arduino:
+|      | Odčitana vrednost | Izmerjena vrednost |
+|---|---|---|
+|1.| 330 nF | 359 nF |
+|2.| 47 nF | 45 nF |
+|3.| 22 uF | 27 uF |
+|4.| 47 uF | 45,2 nF |
+|5.| 1 uF | 1,03 uF |
